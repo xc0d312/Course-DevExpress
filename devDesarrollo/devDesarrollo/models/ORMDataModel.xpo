@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="20f8d79d-69cd-4bd3-bcb7-abc880de881a" namespace="devDesarrollo.models.Database" dataBaseShemaInfo="H4sIAAAAAAAEAMVW207bQBB9r9R/sPxEJRxf4itygiABFLUgRKBqH9fecVjVXqe7dgj9+o4dJ9hJoBRV9MmaM9ezM7Pr8HiZpcoChGQ5H6hmz1CPhx8/hKdEwrTIBZnBhCe5glZcHi0lG6j3RTE/0vWHh4feQ7+Xi5luGYapf7v8Mo3vISMa47IgPAZ140X/7KViVkUJb0mUgqxS1vIaaQFrSLkiGQzUmBQwywVrAjQW14JlRDx+hkdlIu84+1miaSFKaFuh3ShPy4zLDoiwLATjsyGjm+ih3mAdd33XP9SfcrfhfZnC8ekKVlaf28c5ljnhRd9SG3qtElSkgkEbHihMKPCCFS3kqkzT6mwGakJSidD4tIrZhOLFgWl+UhX9FUVMa7brKnieRQLDTdkvlFyjG3hBRHxPxIFrvCk4BRkLNo9xANcZ/Gcy+NsZ9nZgwiksYeeoa7jJeX0zuTy5+a6+OB3PzsfrJ2R/hRXa1NPhslt4eJ4LYDOOfZct4qFer8CTfMZrueIQ6o2wUY6ZrIC7OcVah/VkYP4OuLG9KBmd0GGMyxm7BtEiavuaHRmuFlgx1TxCYs8LXJrYZqg3xhvnhmlnWZ+FUVH1YqXsHmQL79i/xPJvmbbZJm5sRpZtaoFrB5odOJ5GDNfRHLADL/AdKwmsHbat1r6F8Gql3p9rbNgR6bt9jQJgZxMLe2yYnubbbpSQuB8ARP+aa2vD358wuEB9x3Y1xySg2Z7V10jgEA36gR/4thN77uubuw9tlnGDNPKTSVg9pECvRR7XYLPI4dfVqzscw+JsORcgZW9MCtJbWEbPPFQa9aCSev2ecaiMyrQoBQw4lIUg6aFyXUYpi/FyuM1/AB9Evk9Nz7GpZxg4urhJ6xR1vlFKpARZNeCm3JxueEKxNEjYcnPBVNC0TDrQDWT5ArYNV+i27Qh/HoZ3HK9sPgOKZ1bJq6PZVwO+1vkcRMH+c23PlBFeAAeB4zXKswxfXNnM6A7cMR6DxHsbxDnDUdjy6Opqt/XLfQr3ZMFygUOREGw37su2Bv/O9K3fs+FvzkzomMcJAAA=" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="ConnectionString" createdInVersion="20.1.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="20.1.3.0" name="Database" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="31712a22-e5e0-491a-a622-70ea1cb91b97">
+      <comment Id="e0ee7a29-492d-45d3-8ccd-728fdcf18876" text="The 'PRIMARY' index is ignored, because 'idcategoria' is a key" name="categoriaComment">
+        <subjects>
+          <commentReferencesSubjects Id="9e10491d-5fd1-4639-a5bf-1dbb5c64fa91">
+            <xpObjectMoniker Id="c200c60a-bd48-4b06-92cd-7aac7796df41" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="e92f31b6-f76e-4850-8f07-a6895b29fd33">
+      <xpObject Id="c200c60a-bd48-4b06-92cd-7aac7796df41" name="categoria" baseClass="XPLiteObject" userFileName="categoria" designerFileName="categoria.Designer" className="categoria" virtualBaseClass="XPLiteObject" persistent="categoria" virtualName="categoria">
+        <fields>
+          <generalXpObjectHasFields Id="c7663708-1c1a-426c-8694-c73691027667">
+            <field Id="f6c1b241-9649-4957-a065-5e4979852f92" name="idcategoria" columnType="Int32" key="true" isIdentity="true" persistent="idcategoria" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d7f29fd0-ba1a-434b-9846-bb4b59d06906">
+            <field Id="c04ba363-dee8-4f2a-b017-846bfac39eeb" name="nombre" persistent="nombre" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="60" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0e176e3c-6c91-4135-a253-cf4addd79379">
+            <field Id="e6ed8546-51ae-4723-a95a-e3989845c762" name="descripcion" persistent="descripcion" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="80" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
